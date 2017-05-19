@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="examen.js"></script>
+<link href="estilos.css"  rel="stylesheet" type="text/css">
+<body>
+<div class="primer">
+  <img src="usb.jpg" width="200" height="300" />
+  <form class="contact_form" name="formulario" action="">
+      <ul>
+         <li>
+              <h2 align="center">MEMORIA USB</h2>
+         </li>
+         <li>
+             <label for="name">CAPACIDAD:</label>
+             <input type="text"  name="capacidad" value="" placeholder="1 Gb" required>
+             <select name="opcCap">
+   <option value="1">Kb</option>
+   <option value="2">Mb</option>
+   <option value="3">Gb</option>
+   <option value="4">Tb</option>
+   <option value="5">Pb</option>
+</select>
+           </imput>
+         </li>
+         <li>
+             <label for="email">ESPACIO LIBRE:</label>
+             <input type="text" name="libre" value="" placeholder="10 %" required>
+           </input>
+         </li>
+         <li>
+             <label for="website">ARCHIVO:</label>
+             <input type="text" name="tarchivo" value="" placeholder="2 Gb" required>
+             <select name="opcArc">
+   <option value="1">Kb</option>
+   <option value="2">Mb</option>
+   <option value="3">Gb</option>
+   <option value="4">Tb</option>
+   <option value="5">Pb</option>
+</select>
+           </input>
+         </li>
+          <li>
+            <button class="submit" type="submit" onclick="verificar()">CALCULAR</button>
+              <button class="submit" type="submit" onclick="limpiar()">LIMPIAR</button>
+          </li>
+      </ul>
+
+  </form>
+
+</div>
+
+
+
+</body>
+</html>
